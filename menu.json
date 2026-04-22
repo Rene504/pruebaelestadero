@@ -3,7 +3,10 @@
     "name": "El Estadero",
     "subtitle": "Restaurant",
     "phone": "3244-8155",
+    "whatsapp": "50432448155",
     "social": "@elestaderohn",
+    "instagram": "https://www.instagram.com/elestaderohn",
+    "facebook": "https://www.facebook.com/elestaderohn",
     "address": "Plaza Mayor de la Catedral, Frente a parque Central Comayagua."
   },
   "categories": [
@@ -11,6 +14,7 @@
       "id": "cortes",
       "name": "Cortes",
       "icon": "🥩",
+      "image": "img/cortes.jpg",
       "description": "Acompañantes: puré de papas gratinado, elote amarillo, ensalada verde",
       "items": [
         { "name": "Puyazo (ANGUS)", "price": 550 },
@@ -26,6 +30,7 @@
       "id": "carnes",
       "name": "Carnes",
       "icon": "🍗",
+      "image": "img/carnes.jpg",
       "description": "Acompañado de puré de papas, ensalada verde y tortillas",
       "items": [
         { "name": "Pollo a la plancha en salsa BBQ", "price": 250 },
@@ -39,6 +44,7 @@
       "id": "tipicos",
       "name": "Típicos",
       "icon": "🫘",
+      "image": "img/tipicos.jpg",
       "description": "Acompañada de frijoles volteados, chismol, aguacate, plátano, queso o mantequilla",
       "items": [
         { "name": "Plato típico de Res", "price": 280 },
@@ -50,12 +56,13 @@
       "id": "aperitivos",
       "name": "Aperitivos",
       "icon": "🥗",
+      "image": "img/aperitivos.jpg",
       "description": "",
       "items": [
-        { "name": "Fundido de frijoles y quesillo", "price": 140, "note": "Una capa de frijoles volteados, quesillo gratinado servido en cacerola caliente, crujientes chips de tortillas." },
-        { "name": "Fundido El Estadero", "price": 190, "note": "Capa de frijoles volteados, quesillo gratinado, chorizo, servido en cacerola caliente, crujientes chips de tortilla." },
-        { "name": "Ensalada Estadero", "price": 220, "note": "Acompañada con lajas de pechuga pollo asado, aceitunas, aguacate, tomate Cherry, aderezo especial de la casa." },
-        { "name": "Ensalada de queso fresco", "price": 250, "note": "Acompañada con lajas de pechugas de pollo asado, tomate Cherry, aguacate, queso." },
+        { "name": "Fundido de frijoles y quesillo", "price": 140, "note": "Frijoles volteados, quesillo gratinado en cacerola caliente con chips de tortillas." },
+        { "name": "Fundido El Estadero", "price": 190, "note": "Frijoles volteados, quesillo gratinado, chorizo, en cacerola caliente con chips de tortilla." },
+        { "name": "Ensalada Estadero", "price": 220, "note": "Pechuga pollo asado, aceitunas, aguacate, tomate Cherry, aderezo especial de la casa." },
+        { "name": "Ensalada de queso fresco", "price": 250, "note": "Pechuga de pollo asado, tomate Cherry, aguacate, queso." },
         { "name": "Hamburguesa de Res", "price": 225, "note": "Acompañado de papas fritas y salsa" },
         { "name": "Hamburguesa de Pollo", "price": 195, "note": "Acompañado de papas fritas y salsa" }
       ]
@@ -64,7 +71,8 @@
       "id": "costillas",
       "name": "Costillas BBQ",
       "icon": "🍖",
-      "description": "Acompañado de puré de papas o papas fritas, ensalada verde o Elote amarillo y tortillas",
+      "image": "img/costillas.jpg",
+      "description": "Acompañado de puré de papas o papas fritas, ensalada verde o elote amarillo y tortillas",
       "items": [
         { "name": "Costilla Personal", "price": 250 },
         { "name": "Costilla para 2 Personas", "price": 490 },
@@ -76,7 +84,8 @@
       "id": "parrilladas",
       "name": "Parrilladas",
       "icon": "🔥",
-      "description": "Res, Pollo, Cerdo, Chorizo acompañadas de aguacate, frijoles volteados, chismol, plátano, queso o mantequilla",
+      "image": "img/parrilladas.jpg",
+      "description": "Res, Pollo, Cerdo, Chorizo — aguacate, frijoles volteados, chismol, plátano, queso o mantequilla",
       "items": [
         { "name": "Parrillada Personal", "price": 300 },
         { "name": "Parrillada para 2 personas", "price": 550 },
@@ -90,6 +99,7 @@
       "id": "mariscos",
       "name": "Mariscos",
       "icon": "🦐",
+      "image": "img/mariscos.jpg",
       "description": "",
       "items": [
         { "name": "Ceviche de camarones", "price": 300 },
@@ -97,28 +107,30 @@
         { "name": "Camarones Empanizados", "price": 350 },
         { "name": "Filete de Pescado al Ajillo", "price": 350 },
         { "name": "Filete de Pescado a la Plancha", "price": 350 },
-        { "name": "Picadero Mar y Tierra (2 personas)", "price": 550, "note": "Pollo, res, cerdo, chorizo, camarones, acompañado con chips y queso en cuadros." },
-        { "name": "Picadero Mar y Tierra (4 personas)", "price": 1000, "note": "Pollo, res, cerdo, chorizo, camarones, acompañado con chips y queso en cuadros." },
-        { "name": "Picadero Mar y Tierra (6 personas)", "price": 1450, "note": "Pollo, res, cerdo, chorizo, camarones, acompañado con chips y queso en cuadros." }
+        { "name": "Picadero Mar y Tierra (2 personas)", "price": 550, "note": "Pollo, res, cerdo, chorizo, camarones, chips y queso." },
+        { "name": "Picadero Mar y Tierra (4 personas)", "price": 1000, "note": "Pollo, res, cerdo, chorizo, camarones, chips y queso." },
+        { "name": "Picadero Mar y Tierra (6 personas)", "price": 1450, "note": "Pollo, res, cerdo, chorizo, camarones, chips y queso." }
       ]
     },
     {
       "id": "infantil",
       "name": "Menú Infantil",
       "icon": "🧒",
+      "image": "img/infantil.jpg",
       "description": "",
       "items": [
         { "name": "Hamburguesa de Pollo", "price": 150, "note": "Acompañada de papas, salsa" },
         { "name": "Hamburguesa de Res", "price": 160, "note": "Acompañada de papas, salsa" },
-        { "name": "Chicken Fingers", "price": 160, "note": "Deliciosos dedos de pollo empanizados acompañados de papas." },
-        { "name": "Orden de 6 Alitas", "price": 150, "note": "Bañadas en su salsa de BBQ y acompañadas de papas" },
-        { "name": "Orden de 12 Alitas", "price": 300, "note": "Bañadas en su salsa de BBQ y acompañadas de papas" }
+        { "name": "Chicken Fingers", "price": 160, "note": "Dedos de pollo empanizados con papas." },
+        { "name": "Orden de 6 Alitas", "price": 150, "note": "Salsa BBQ y papas" },
+        { "name": "Orden de 12 Alitas", "price": 300, "note": "Salsa BBQ y papas" }
       ]
     },
     {
       "id": "bebidas",
       "name": "Bebidas",
       "icon": "🥤",
+      "image": "img/bebidas.jpg",
       "description": "",
       "items": [
         { "name": "Bote con agua", "price": 30 },
@@ -134,7 +146,8 @@
       "id": "cocteles",
       "name": "Cócteles",
       "icon": "🍹",
-      "description": "Consulta por otras Bebidas",
+      "image": "img/cocteles.jpg",
+      "description": "Consulta por otras bebidas",
       "items": [
         { "name": "Copa de vino tinto", "price": 150 },
         { "name": "Copa de vino blanco", "price": 150 },
