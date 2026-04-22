@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="El Estadero Restaurant — Menú oficial. Cortes ANGUS, parrilladas, mariscos y más. Comayagua, Honduras." />
+  <title>El Estadero — Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ╔══════════════════════════════════════╗ -->
+  <!-- ║         INTRO / SPLASH              ║ -->
+  <!-- ╚══════════════════════════════════════╝ -->
+  <div id="intro" role="presentation" aria-hidden="true">
+
+    <div class="intro-emblem">
+      <div class="intro-logo-ring">
+        <span class="intro-logo-icon">🍽️</span>
+      </div>
+      <div class="intro-line"></div>
+      <p class="intro-name">El Estadero</p>
+      <p class="intro-sub">Restaurant &nbsp;·&nbsp; Comayagua</p>
+    </div>
+
+    <button class="intro-skip" id="skip-btn" aria-label="Saltar intro">
+      Ver Menú
+    </button>
+  </div>
+
+  <!-- ╔══════════════════════════════════════╗ -->
+  <!-- ║         SITE CONTENT               ║ -->
+  <!-- ╚══════════════════════════════════════╝ -->
+  <div id="main-content">
+
+    <!-- ── Navbar ── -->
+    <nav id="navbar" role="navigation" aria-label="Navegación principal">
+
+      <a href="#hero" class="nav-brand" aria-label="El Estadero inicio">
+        El Estadero <span>Restaurant</span>
+      </a>
+
+      <!-- Hamburger (3 lines) -->
+      <button id="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="side-drawer">
+        <span class="ham-line"></span>
+        <span class="ham-line"></span>
+        <span class="ham-line"></span>
+      </button>
+    </nav>
+
+    <!-- ── Side Drawer overlay ── -->
+    <div id="drawer-overlay" class="drawer-overlay" role="presentation"></div>
+
+    <!-- ── Side Drawer ── -->
+    <aside id="side-drawer" role="dialog" aria-label="Menú de categorías">
+      <p class="drawer-title">Categorías</p>
+      <nav class="drawer-nav" id="drawer-nav">
+        <!-- JS inserts links here -->
+      </nav>
+      <div class="drawer-footer">
+        <p>📞 <a href="tel:32448155">3244-8155</a></p>
+        <p>📍 Plaza Mayor, Comayagua</p>
+        <p style="margin-top:0.5rem;">
+          <a href="https://www.instagram.com/elestaderohn" target="_blank" rel="noopener">@elestaderohn</a>
+        </p>
+      </div>
+    </aside>
+
+    <!-- ── Hero ── -->
+    <header id="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-grid"></div>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow">Desde Comayagua, Honduras</p>
+        <h1 class="hero-title">
+          El<br><em>Estadero</em>
+        </h1>
+        <p class="hero-tagline">Cortes ANGUS · Parrilladas · Mariscos</p>
+
+        <div class="hero-divider">
+          <span></span>
+          <i>✦</i>
+          <span></span>
+        </div>
+
+        <a href="#menu" class="hero-cta">Ver el Menú</a>
+      </div>
+
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+        <span>Scroll</span>
+      </div>
+    </header>
+
+    <!-- ── Menu ── -->
+    <main id="menu">
+      <div class="section-header">
+        <span class="section-label">Nuestro Menú</span>
+        <h2 class="section-title">Todo lo que <em>ofrecemos</em></h2>
+        <div class="section-rule"></div>
+      </div>
+
+      <div id="menu-sections">
+        <!-- JS builds category blocks here -->
+      </div>
+    </main>
+
+    <!-- ── Info ── -->
+    <section id="info">
+      <div class="info-card">
+        <h3>Teléfono &amp; Pedidos</h3>
+        <p>
+          📞 <a href="tel:32448155" id="info-phone">3244-8155</a><br>
+          Servicio a Domicilio disponible
+        </p>
+      </div>
+      <div class="info-card">
+        <h3>Redes Sociales</h3>
+        <p>
+          <a href="https://www.facebook.com/people/El-Estadero/100054468220345/" target="_blank" rel="noopener" id="info-social">@elestaderohn</a><br>
+          Instagram &amp; Facebook
+        </p>
+      </div>
+      <div class="info-card">
+        <h3>Ubicación</h3>
+        <p id="info-address">Plaza Mayor de la Catedral,<br>Frente a parque Central Comayagua.</p>
+      </div>
+    </section>
+
+    <!-- ── Footer ── -->
+    <footer>
+      <p>&copy; 2025 <strong>El Estadero Restaurant</strong> &nbsp;·&nbsp; Comayagua, Honduras</p>
+    </footer>
+
+  </div><!-- /main-content -->
+
+  <script src="menu.js"></script>
+</body>
+</html>

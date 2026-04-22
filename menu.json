@@ -1,0 +1,150 @@
+{
+  "restaurant": {
+    "name": "El Estadero",
+    "subtitle": "Restaurant",
+    "phone": "3244-8155",
+    "social": "@elestaderohn",
+    "address": "Plaza Mayor de la Catedral, Frente a parque Central Comayagua."
+  },
+  "categories": [
+    {
+      "id": "cortes",
+      "name": "Cortes",
+      "icon": "🥩",
+      "description": "Acompañantes: puré de papas gratinado, elote amarillo, ensalada verde",
+      "items": [
+        { "name": "Puyazo (ANGUS)", "price": 550 },
+        { "name": "Filet Mignon (ANGUS)", "price": 600 },
+        { "name": "Churrasco (ANGUS)", "price": 550 },
+        { "name": "Entraña (ANGUS)", "price": 650 },
+        { "name": "New York (ANGUS)", "price": 850 },
+        { "name": "Rib Eye (ANGUS)", "price": 750 },
+        { "name": "Tomahawk (ANGUS)", "price": 1750 }
+      ]
+    },
+    {
+      "id": "carnes",
+      "name": "Carnes",
+      "icon": "🍗",
+      "description": "Acompañado de puré de papas, ensalada verde y tortillas",
+      "items": [
+        { "name": "Pollo a la plancha en salsa BBQ", "price": 250 },
+        { "name": "Pollo a la plancha en salsa jalapeña", "price": 250 },
+        { "name": "Bistec Encebollado", "price": 260 },
+        { "name": "Fajitas Mixtas", "price": 250 },
+        { "name": "Picadero mixto de carne", "price": 350, "note": "Res, Cerdo, Pollo, Chorizo en trozos, Frijoles volteados, queso, Chismol, Chimichurri" }
+      ]
+    },
+    {
+      "id": "tipicos",
+      "name": "Típicos",
+      "icon": "🫘",
+      "description": "Acompañada de frijoles volteados, chismol, aguacate, plátano, queso o mantequilla",
+      "items": [
+        { "name": "Plato típico de Res", "price": 280 },
+        { "name": "Plato típico mixto Res y Cerdo", "price": 260 },
+        { "name": "Plato típico mixto Res, Cerdo y Chorizo", "price": 270 }
+      ]
+    },
+    {
+      "id": "aperitivos",
+      "name": "Aperitivos",
+      "icon": "🥗",
+      "description": "",
+      "items": [
+        { "name": "Fundido de frijoles y quesillo", "price": 140, "note": "Una capa de frijoles volteados, quesillo gratinado servido en cacerola caliente, crujientes chips de tortillas." },
+        { "name": "Fundido El Estadero", "price": 190, "note": "Capa de frijoles volteados, quesillo gratinado, chorizo, servido en cacerola caliente, crujientes chips de tortilla." },
+        { "name": "Ensalada Estadero", "price": 220, "note": "Acompañada con lajas de pechuga pollo asado, aceitunas, aguacate, tomate Cherry, aderezo especial de la casa." },
+        { "name": "Ensalada de queso fresco", "price": 250, "note": "Acompañada con lajas de pechugas de pollo asado, tomate Cherry, aguacate, queso." },
+        { "name": "Hamburguesa de Res", "price": 225, "note": "Acompañado de papas fritas y salsa" },
+        { "name": "Hamburguesa de Pollo", "price": 195, "note": "Acompañado de papas fritas y salsa" }
+      ]
+    },
+    {
+      "id": "costillas",
+      "name": "Costillas BBQ",
+      "icon": "🍖",
+      "description": "Acompañado de puré de papas o papas fritas, ensalada verde o Elote amarillo y tortillas",
+      "items": [
+        { "name": "Costilla Personal", "price": 250 },
+        { "name": "Costilla para 2 Personas", "price": 490 },
+        { "name": "Costilla para 3 Personas", "price": 730 },
+        { "name": "Costilla para 4 Personas", "price": 970 }
+      ]
+    },
+    {
+      "id": "parrilladas",
+      "name": "Parrilladas",
+      "icon": "🔥",
+      "description": "Res, Pollo, Cerdo, Chorizo acompañadas de aguacate, frijoles volteados, chismol, plátano, queso o mantequilla",
+      "items": [
+        { "name": "Parrillada Personal", "price": 300 },
+        { "name": "Parrillada para 2 personas", "price": 550 },
+        { "name": "Parrillada para 3 personas", "price": 825 },
+        { "name": "Parrillada para 4 personas", "price": 1100 },
+        { "name": "Parrillada para 5 personas", "price": 1375 },
+        { "name": "Parrillada para 6 personas", "price": 1650 }
+      ]
+    },
+    {
+      "id": "mariscos",
+      "name": "Mariscos",
+      "icon": "🦐",
+      "description": "",
+      "items": [
+        { "name": "Ceviche de camarones", "price": 300 },
+        { "name": "Camarones al Ajillo", "price": 350 },
+        { "name": "Camarones Empanizados", "price": 350 },
+        { "name": "Filete de Pescado al Ajillo", "price": 350 },
+        { "name": "Filete de Pescado a la Plancha", "price": 350 },
+        { "name": "Picadero Mar y Tierra (2 personas)", "price": 550, "note": "Pollo, res, cerdo, chorizo, camarones, acompañado con chips y queso en cuadros." },
+        { "name": "Picadero Mar y Tierra (4 personas)", "price": 1000, "note": "Pollo, res, cerdo, chorizo, camarones, acompañado con chips y queso en cuadros." },
+        { "name": "Picadero Mar y Tierra (6 personas)", "price": 1450, "note": "Pollo, res, cerdo, chorizo, camarones, acompañado con chips y queso en cuadros." }
+      ]
+    },
+    {
+      "id": "infantil",
+      "name": "Menú Infantil",
+      "icon": "🧒",
+      "description": "",
+      "items": [
+        { "name": "Hamburguesa de Pollo", "price": 150, "note": "Acompañada de papas, salsa" },
+        { "name": "Hamburguesa de Res", "price": 160, "note": "Acompañada de papas, salsa" },
+        { "name": "Chicken Fingers", "price": 160, "note": "Deliciosos dedos de pollo empanizados acompañados de papas." },
+        { "name": "Orden de 6 Alitas", "price": 150, "note": "Bañadas en su salsa de BBQ y acompañadas de papas" },
+        { "name": "Orden de 12 Alitas", "price": 300, "note": "Bañadas en su salsa de BBQ y acompañadas de papas" }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "name": "Bebidas",
+      "icon": "🥤",
+      "description": "",
+      "items": [
+        { "name": "Bote con agua", "price": 30 },
+        { "name": "Gaseosa variedad", "price": 40 },
+        { "name": "Fresco Natural", "price": 50 },
+        { "name": "Limonada con menta", "price": 60 },
+        { "name": "Limonada con hierba buena", "price": 60 },
+        { "name": "Limonada con soda", "price": 60 },
+        { "name": "Limonada con fresa", "price": 70 }
+      ]
+    },
+    {
+      "id": "cocteles",
+      "name": "Cócteles",
+      "icon": "🍹",
+      "description": "Consulta por otras Bebidas",
+      "items": [
+        { "name": "Copa de vino tinto", "price": 150 },
+        { "name": "Copa de vino blanco", "price": 150 },
+        { "name": "Margarita Limón Blue", "price": 150 },
+        { "name": "Daiquiri", "price": 140 },
+        { "name": "Mojito", "price": 130 },
+        { "name": "Piña Colada", "price": 150 },
+        { "name": "Sangría", "price": 150 },
+        { "name": "Coco Loco", "price": 170 }
+      ]
+    }
+  ]
+}
